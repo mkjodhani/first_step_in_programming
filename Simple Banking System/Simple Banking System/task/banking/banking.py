@@ -39,7 +39,7 @@ class Account(object):
         print(digits)
         print(sum(digits))
         s=sum(digits)-digits[-1]
-            CS="0" if (s)%10 ==0 else str(10-(s)%10)
+        CS="0" if (s)%10 ==0 else str(10-(s)%10)
         return CS == str(number[-1]):
     
 

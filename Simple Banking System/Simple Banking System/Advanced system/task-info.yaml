@@ -375,10 +375,16 @@ files:
 - name: banking/banking.py
   visible: true
   learner_created: true
+- name: temp.s3db
+  visible: true
+  learner_created: true
+- name: card.s3db-journal
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/109/stages/594/implement
 status: Solved
 feedback:
   message: Congratulations! Continue on <a href="https://hyperskill.org/projects/109/stages/594/implement">JetBrains
     Academy</a>
-  time: Sat, 04 Jul 2020 10:59:47 UTC
+  time: Sun, 12 Jul 2020 09:19:35 UTC
 record: -1
