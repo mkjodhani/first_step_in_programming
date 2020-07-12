@@ -39,14 +39,9 @@ class Account(object):
         print(digits)
         print(sum(digits))
         s=sum(digits)-digits[-1]
-        if (s)%10 ==0:
-            CS="0"
-        else:
-            CS=str(10-(s)%10)
-        if CS == str(number[-1]):
-            return True
-        else:
-            return False
+            CS="0" if (s)%10 ==0 else str(10-(s)%10)
+        return CS == str(number[-1]):
+    
 
     def add_income(self):
         print("Enter income:")
