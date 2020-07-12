@@ -28,4 +28,4 @@ The rules of a protocol apply to the data passing between two programs, perhaps 
 In order to have communication between two sockets, they must specify the same protocol.
 Each protocol is meaningful with particular style/namespace combinations and cannot be used with inappropriate combinations. For example, the TCP protocol fits only the byte stream style of communication and the Internet namespace.
 For each combination of style and namespace there is a default protocol, which you can request by specifying 0 as the protocol number. And that’s what you should normally do—use the default. 
-
+![](socket.png)
